@@ -1,40 +1,17 @@
 # Práctica 2: Comma separated values (CSV) with AJAX
 
-## jQuery.get( url [, data ] [, success ] [, dataType ] )
-* url
-  * Type: String
-  * A string containing the URL to which the request is sent.
-* data
-  * Type: PlainObject or String
-  * A plain object or string that is sent to the server with the request.
-* success
-  * Type: Function( PlainObject data, String textStatus, jqXHR jqXHR )
-  * A callback function that is executed if the request succeeds. 
-    Required if `dataType` is provided, but you can use `null` or `jQuery.noop` as a placeholder.
-* dataType
-  * Type: String
-  * The type of data expected from the server. Default: Intelligent Guess (xml, json, script, text, html).
+### Participantes:
 
-## jQuery.get( [settings ] )
-* settings
-  * Type: PlainObject
-  * A set of key/value pairs that configure the Ajax request. 
-  * All properties except for `url` are optional. 
-  * A default can be set for any option with `$.ajaxSetup()`.
+* Juan Nicolás Vargas Moreno: [Página personal de prácticas](http://alu0100706734.github.io/)
 
-This is a shorthand Ajax function, which is equivalent to:
+* Nitesh Gul Ramnani: [Página personal de prácticas](http://alu0100814651.github.io/blog/index.html)
 
-```javascript
-$.ajax({
-  url: url,
-  data: data,
-  success: success,
-  dataType: dataType
-});
-```
+* Rossiel Dinosca González Ramírez: [Página personal de prácticas](http://alu0100763478.github.io/)
 
-The success callback function is passed the returned data, which will be an XML root element, text string, JavaScript file, or JSON object, depending on the MIME type of the response. It is also passed the text status of the response.
+### Enlace al repositorio git de la práctica:
 
-# Heroku 
-https://cvsajax.herokuapp.com/
+* [Ajax](https://github.com/ULL-ESIT-GRADOII-DSI/ajax-ecma6-ficheros-rossiel-nitesh-nico1)
 
+### Enlace a la descripción de la práctica en el Campus Virtual de la asignatura:
+
+* [Campus Virtual](https://campusvirtual.ull.es/1516/mod/page/view.php?id=189370)
